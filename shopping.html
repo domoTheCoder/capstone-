@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brick Market | Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="shopping">
+  <header class="topbar">
+
+      <div>
+        <strong>Brick Market</strong>
+        <span>Buy · Trade · Sell LEGO sets</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="shopping.html">Shopping</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="section-header">
+      <div>
+        <p class="eyebrow">Shopping</p>
+        <h1>Browse LEGO sets and add them to your cart.</h1>
+        <p>Search by name, theme, condition, or listing type and create a cart for purchases, trades, or sales.</p>
+      </div>
+      <div class="search-box">
+        <label class="search-label">
+          Search sets
+          <input id="searchInput" type="search" placeholder="Search by name, theme, or condition">
+        </label>
+      </div>
+    </section>
+
+    <section class="cards-grid" id="setList"></section>
+    <div class="empty-state hidden" id="emptyState">No sets match your search. Please try a different keyword.</div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Brick Market</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
